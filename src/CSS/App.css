@@ -1,0 +1,5 @@
+.info {
+	background: url('../Resources/background.png');
+  background-size: 100%vh 100%vw;
+  font-family: "Open Sans", sans-serif;
+}

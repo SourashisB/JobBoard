@@ -1,0 +1,33 @@
+.tooltiptext {
+
+  background-color: white;
+
+  padding: 20px;
+
+  display: none;
+
+  text-align: center;
+  transition: 5s;
+  transition-delay: 30s;
+  -webkit-transition: height 2s;
+}
+
+ 
+.tooltip:hover + .tooltiptext {
+  position: absolute; 
+  display: block;
+  text-align: end;
+  transition: 5s;
+  transition-delay: 30s;
+  -webkit-transition: height 2s;
+}
+
+.tooltiptext:hover{
+  position: absolute; 
+  display: block;
+  text-align: end;
+  transition: 5s;
+  transition-delay: 30s;
+  -webkit-transition: height 2s;
+
+}

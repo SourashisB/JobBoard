@@ -1,0 +1,32 @@
+
+
+.main-content {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+
+.opptable {
+	border-spacing: 0 25px;
+	border-collapse: separate;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oppheader{
+    background-color: inherit;
+    position: relative;
+    color: white;
+    font-size: 23px;
+    
+}
+
+.opptitle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}

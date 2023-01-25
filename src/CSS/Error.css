@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Sans');
+  
+    
+*{
+    margin : 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.error-page {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    box-sizing:border-box ;
+    top:40%;
+    left:38%;
+    right: 20%;
+    bottom:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+.error-page .content {
+    max-width: 400px;
+    text-align: center;
+}
+
+.content h3 {
+    /* font-size: 3vw;
+    line-height: 1em;
+     */
+     font-size: 38px;
+     text-shadow: 1.5px 1.5px 1.5px #497088;
+     font-weight: 700;
+     color: #06283D;
+     /* color: #273c4b; */
+}
+
+.content p {
+    font-size: 1.01em;
+    font-weight: 550;
+    margin: 5px;
+    color: #848383;
+
+}
+
+.content .btns {
+    margin: 22px 0;
+    display: inline-flex;
+}
+
+.content .btns a {
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none;
+    border: 2px solid #47B5FF;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight:bold;
+    padding: 7px 120px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #47B5FF;
+    transition: all 0.3s ease;
+}
+
+.content .btns a:hover {
+    color: #fff;
+    background-color: #06283D;
+    border: 2px solid #06283D;
+}

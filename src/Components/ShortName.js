@@ -1,0 +1,11 @@
+import React from 'react'
+
+const ShortName = ({client}) => {
+    if(client.match(/t?h?e?\s?(h|k){0,2}ong\s? a?n?d?&?\s?(s|S)h?a?n?g?h?a?i?\s?(b|B)a?n?k?i?n?g?\s?c?o?r?p?o?r?a?t?i?o?n?/gi)){
+        return <div role= "client"> HSBC</div>;
+    } else {
+        return <div role= "client"> {client}</div>; 
+    }
+}
+
+export default ShortName;

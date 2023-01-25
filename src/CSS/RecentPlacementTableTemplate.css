@@ -1,0 +1,27 @@
+
+
+.main-content {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+
+.placementTable {
+    text-align: center;
+	border-spacing: 0 25px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.placementHeader{
+    color:white;
+    font-size: 23px;
+}
+
+.rectitle{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+

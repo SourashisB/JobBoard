@@ -1,0 +1,25 @@
+.namer-controls {
+    font-family: "Dosis";
+	font-size: 2.2rem; 
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	line-height: 1.5;
+	text-shadow: 1px 1px #666, 3px 3px #000;
+	
+	width: 250px;
+	height: 350px;
+	padding: 20px;
+	overflow: hidden;
+	color: #fff;
+	border: 10px solid #eee;   
+	background: linear-gradient( #0e0e0e 65%, #030303 66%) top .03em center / 100% .30em repeat-y;
+}
+body {
+	background: url('../Resources/homebackground.jpg');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	/* overflow: hidden; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
